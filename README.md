@@ -1,2 +1,9 @@
-# database
-database both sql and no-sql
+# Sql AND NoSQL
+
+## Sql
+
+## NoSql
+
+### Mongodb
+
+[慢查询](./NoSQL/mongodb/slowms.md)
