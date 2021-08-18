@@ -12,6 +12,7 @@
     - [mongodump备份](#mongodump备份)
     - [mongodump还原](#mongodump还原)
   - [问题及解决方法](#问题及解决方法)
+  - [引用](#引用)
 
 ## 文件快照
 
@@ -153,3 +154,11 @@ mongorestore --uri="mongodb://127.0.0.1:27017/" --gzip --nsInclude=db1.user* --n
 | 错误信息                                                       | 解决方法                                                |
 | -------------------------------------------------------------- | ------------------------------------------------------- |
 | Implicit TCP FastOpen unavailable. If TCP FastOpen is required | rm -f /tmp/mongodb-27017.sock && service mongod restart |
+
+## 引用
+
+[MongoDB Backup Methods](https://docs.mongodb.com/manual/core/backups/)
+
+[mongodump](https://docs.mongodb.com/database-tools/mongodump/#mongodb-binary-bin.mongodump)
+
+[GitHub](https://github.com/WilsonPan/database/blob/main/NoSql/mongodb/backup_and_restore.md)
