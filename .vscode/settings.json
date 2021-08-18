@@ -1,0 +1,28 @@
+{
+    "editor.formatOnSave": true,
+    "python.pythonPath": "venv/bin/python",
+    "python.formatting.provider": "yapf",
+    "python.formatting.yapfArgs": [
+        "-p",
+        "--style",
+        "{ based_on_style: google, indent_width:4 ,  column_limit:130}"
+    ],
+    "python.linting.enabled": true,
+    "python.linting.pylintEnabled": true,
+    "python.linting.pylintArgs": [
+        "--errors-only",
+        "--ignored-modules=socket",
+        "--disable=E0401",
+    ],
+    "files.exclude": {
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/CVS": true,
+        "**/.DS_Store": true,
+        "venv/": true,
+        "**/__pycache__": true,
+        "**/**.pyc": true,
+        "**/__init__.py": true
+    },
+}

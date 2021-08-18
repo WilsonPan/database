@@ -117,4 +117,4 @@ db.setProfilingLevel(1, 100)
 
 ## GitHub
 
-[GitHub Link](https://github.com/WilsonPan/NoSQL-Tutorial/blob/master/MongoDB/Slowms.md)
+[GitHub](https://github.com/WilsonPan/database/blob/main/NoSql/mongodb/slowms.md)
